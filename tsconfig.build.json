@@ -1,8 +1,6 @@
 {
   "extends": "./tsconfig.json",
-  "references": [{ "path": "../askr-core" }],
   "compilerOptions": {
-    "composite": true,
     "rootDir": "src"
   },
   "include": ["src/**/*"]
